@@ -2,6 +2,18 @@
 
 An Apollo Link that immediately returns an optimistic response provided in the context of the request, before returning the server response(s).
 
+### Install
+
+```sh
+npm install apollo-link-optimistic
+```
+
+or
+
+```
+yarn add apollo-link-optimsitic
+```
+
 ### Usage
 
 ```js
