@@ -1,5 +1,7 @@
 # apollo-link-optimistic
 
+[![npm version](https://badge.fury.io/js/apollo-link-optimistic.svg)](https://badge.fury.io/js/apollo-link-optimistic)
+
 An Apollo Link that immediately returns an optimistic response provided in the context of the request, before returning the server response(s).
 
 ### Install
