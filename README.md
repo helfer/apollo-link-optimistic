@@ -2,6 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/apollo-link-optimistic.svg)](https://badge.fury.io/js/apollo-link-optimistic)
 [![Build Status](https://travis-ci.org/helfer/apollo-link-optimistic.svg?branch=master)](https://travis-ci.org/helfer/apollo-link-optimistic)
+[![codecov](https://codecov.io/gh/helfer/apollo-link-optimistic/branch/master/graph/badge.svg)](https://codecov.io/gh/helfer/apollo-link-optimistic)
 
 An Apollo Link that immediately returns an optimistic response provided in the context of the request, before returning the server response(s).
 
