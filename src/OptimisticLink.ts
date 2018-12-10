@@ -6,7 +6,7 @@ import {
 } from 'apollo-link';
 
 export default class OptimisticLink extends ApolloLink {
-    public request(operation: Operation, forward: NextLink ) {
+    public request(operation: Operation, forward: NextLink) {
         if (!operation.getContext().optimisticResponse) {
             return forward(operation);
         }
