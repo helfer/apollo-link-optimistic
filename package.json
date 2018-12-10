@@ -1,6 +1,6 @@
 {
   "name": "apollo-link-optimistic",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "An Apollo link that immediately returns an optimistic response before returning the server response",
   "dependencies": {
     "apollo-link": "^1.2.4",
