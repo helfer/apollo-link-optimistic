@@ -6,6 +6,8 @@
 
 An Apollo Link that immediately returns an optimistic response provided in the context of the request, before returning the server response(s).
 
+This link is useful if you're using Apollo Link without Apollo Client. If you're using Apollo Client, you can use Apollo Client's built-in optimistic responses. 
+
 ### Install
 
 ```sh
